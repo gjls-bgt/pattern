@@ -78,7 +78,7 @@
                                 'bg-emerald-50 border-emerald-300 text-emerald-700': level.status === 'correct',
                                 'bg-rose-50 border-rose-300 text-rose-700': level.status === 'wrong',
                                 'bg-white border-indigo-200 text-indigo-600 shadow-sm': level.status === 'unlocked',
-                                'bg-slate-100 border-slate-200 text-slate-400 cursor-not-allowed': isLocked(index)
+                                'bg-slate-100 border-slate-200 text-slate-400 pointer-events-none': isLocked(index)
                             }"
                             class="h-16 rounded-xl border-2 font-bold flex flex-col items-center justify-center transition-all duration-150 active:scale-95"
                         >
