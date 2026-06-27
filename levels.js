@@ -83,7 +83,7 @@ const CUSTOM_LEVELS = [
     {
         id: 11,
         tipe: "Pola ini dibagi 3 setiap bergeser ke kanan (:3).",
-        sequence: [144, 48, 18, 6, 2],
+        sequence: [162, 54, 18, 6, 2],
         targetIdx: 2, 
         jawaban: 18,
         opsi_lain: [12, 15, 21]
