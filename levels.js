@@ -130,5 +130,13 @@ const CUSTOM_LEVELS = [
         targetIdx: 0, // Target angka ke-4 (9) yang dikosongkan
         jawaban: 15,
         opsi_lain: [12, 18, 16]
+    },
+    {
+        id: 17,
+        tipe: "Polanya adalah +2, -1, +2, -1",
+        sequence: [5, 7, 6, 8, 7],
+        targetIdx: 4, 
+        jawaban: 7,
+        opsi_lain: [6, 9, 10]
     }
 ];
